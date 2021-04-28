@@ -2,19 +2,12 @@ import json
 
 # 使用三引号将浏览器复制出来的requests headers参数赋值给一个变量
 headers = """
-Host: zhan.qq.com
-Proxy-Connection: keep-alive
-Content-Length: 799432
-Pragma: no-cache
-Cache-Control: no-cache
-Origin: https://www.colorgg.com
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuptjZg9xmsfWzngP
-Accept: */*
-Referer: https://www.colorgg.com
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-Cookie: pgv_pvi=4342937600; RK=xFr4lrf07R; ptcz=a247c6170fb56cb4d5d41bf8461f11097a9be27bc7e7dc8b921254de9b1c924b;
+m: LiveList
+do: getLiveListByPage
+gameId: 100022
+tagAll: 0
+callback: getLiveListJsonpCallback
+page: 2
 """
 
 # 去除参数头尾的空格并按换行符分割
