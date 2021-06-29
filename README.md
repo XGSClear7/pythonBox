@@ -1,4 +1,3 @@
-<a title="Hits" target="_blank" href="https://github.com/XGSClear7/hits"><img src="https://hits.b3log.org/XGSClear7/hits.svg"></a>
 
 ## python各种小工具
 
